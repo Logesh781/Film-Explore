@@ -11,6 +11,7 @@ function Home(){
     const handleSearch = (e) =>{
         e.preventDefault();
         alert(searchQuery)
+        setSearchQuery("")
     }
 
     return(
